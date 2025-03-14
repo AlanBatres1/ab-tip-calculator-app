@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import './App.css';
 import InputSection from './components/InputSection';
-import OutputBox from './components/outputBox';
+import OutputBox from './components/TipOutputBox';
 
 function App() {
   const [bill, setBill] = useState(0);
